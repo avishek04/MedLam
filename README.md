@@ -52,10 +52,14 @@ MedLam explores the fine-tuning of LLMs using a Medical QA dataset to improve th
    ```bash
    cd MedLam
 
-4.	Run the training script:
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the training script:
    ```bash
    python train_model.py
 
-5.	Evaluate the model:
+5. Evaluate the model:
    ```bash
    python evaluate_model.py
