@@ -1,16 +1,61 @@
-# MedLam
-A Medical Assistant based on Llama 3.1
+# **MedLam: An Intelligent Medical Assistant**
 
-## Dataset
+MedLam is a research project focused on leveraging Large Language Models (LLMs) to enhance medical education and assistance. This tool is designed to aid medical students, professors, and doctors by providing reliable answers to medical queries, mentoring students, and streamlining teaching processes.
 
-Chat Doctor Disease-Symptom - https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv
-ChatDoctor Patient-Doctor - https://github.com/Kent0n-Li/ChatDoctor/blob/main/chatdoctor5k.json
-ngram/medchat-qa - https://huggingface.co/datasets/ngram/medchat-qa?row=0
-medalpaca/medical_meadow_medical_flashcards - https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards
-medalpaca/medical_meadow_wikidoc - https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc
-medalpaca/medical_meadow_wikidoc_patient_information - https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information
-medalpaca/medical_meadow_mediqa - https://huggingface.co/datasets/medalpaca/medical_meadow_mediqa
-medalpaca/medical_meadow_cord19 - https://huggingface.co/datasets/medalpaca/medical_meadow_cord19
-medalpaca/medical_meadow_mmmlu - https://huggingface.co/datasets/medalpaca/medical_meadow_mmmlu
-medalpaca/medical_meadow_health_advice - https://huggingface.co/datasets/medalpaca/medical_meadow_health_advice?row=0
-medalpaca/medical_meadow_pubmed_causal - https://huggingface.co/datasets/medalpaca/medical_meadow_pubmed_causal?row=1
+---
+
+## **Overview**
+
+MedLam explores the fine-tuning of LLMs using a Medical QA dataset to improve their performance for domain-specific tasks. By combining state-of-the-art natural language processing techniques and medical data, MedLam aims to deliver an effective and intuitive medical assistant.
+
+---
+
+## **Features**
+- **Fine-Tuned LLMs**: Optimized large language models tailored for medical use cases.
+- **Medical QA Dataset**: Processed and utilized datasets containing 100K+ records of medical queries and responses.
+- **Custom LoRA Fine-Tuning**: Incorporates Low-Rank Adaptation (LoRA) techniques to enhance model performance efficiently.
+- **Model Validation**: Comparison and validation of multiple models using key metrics like accuracy and F1-score.
+- **Use Cases**:
+  - Assisting medical students in understanding complex topics.
+  - Supporting professors in teaching and curriculum design.
+  - Helping doctors with quick and accurate responses to medical questions.
+
+---
+
+## **Project Architecture**
+
+1. **Data Preparation**:
+   - Preprocessed Medical QA datasets for training and evaluation.
+2. **Model Fine-Tuning**:
+   - Applied LoRA PEFT (Parameter-Efficient Fine-Tuning) to train LLMs on domain-specific data.
+3. **Performance Validation**:
+   - Analyzed and compared models across multiple configurations to determine optimal hyperparameters.
+4. **Deployment (Future Scope)**:
+   - Aimed at integrating the fine-tuned model into a user-friendly medical assistant platform.
+
+---
+
+## **Technologies Used**
+- **Programming Languages**: Python  
+- **Frameworks**: PyTorch, Hugging Face Transformers  
+- **Machine Learning Techniques**: LoRA PEFT, Deep Learning  
+- **Tools**: NumPy, Pandas, Sci-kit Learn  
+
+---
+
+## **Setup Instructions**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/avishek04/MedLam.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd MedLam
+
+4.	Run the training script:
+   ```bash
+   python train_model.py
+
+5.	Evaluate the model:
+   ```bash
+   python evaluate_model.py
