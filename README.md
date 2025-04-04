@@ -59,7 +59,7 @@ MedLam explores the fine-tuning of LLMs using a Medical QA dataset to improve th
 ## Uses
 
 <!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
-This model was developed only for research purposes and cannot be commercialized as a final product. That said, other researchers or developers can use it for learning and experimental purposes. 
+This model was developed only for research and learning purposes and is not be meant for commercialization as a final product.
 
 - Assisting medical students in understanding complex topics.
 - Supporting professors in teaching and curriculum design.
