@@ -53,6 +53,7 @@ MedLam explores the fine-tuning of LLMs using a Medical QA dataset to improve th
 <!-- Provide the basic links for the model. -->
 
 - **Repository:** https://github.com/avishek04/MedLam/tree/main
+- **Model:** https://huggingface.co/aviici4cs/MedLam
 - **Paper:** https://arxiv.org/abs/2106.09685
 <!-- - **Demo [optional]:** [More Information Needed] -->
 
